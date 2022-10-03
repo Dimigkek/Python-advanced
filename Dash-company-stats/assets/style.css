@@ -1,0 +1,76 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    background-color: blue;
+}
+
+.header {
+    background-color: black;
+    height: 288px;
+    padding: 16px 0 0 0;
+}
+
+
+.header-title {
+  font-family: "Times New Roman",Times, serif;
+  text-align: start;
+  font-size: 45px;
+  color: red;
+  padding: 10px 400px 25px 50px;
+  background-color: black;
+  text-indent: 50px
+}
+
+.menu {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 14px;
+    margin: 40px auto 0 auto;
+    background-color: gray;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 18);
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+.header-description{
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+    text-indent: -150px
+}
+.header{
+background-color: black
+}
+
+
+.photo {
+    font-size: 48px;
+    margin: auto;
+    text-align: start;
+    color: #CFCFCF;
+    text-indent: 50px
+}
+.image{
+  border: 5px solid #ccc;
+  float: left;
+  width: 550px;
+
+}
+.price1{
+font-size: 20px
+}
+
+.price2{
+font-size: 20px
+}
