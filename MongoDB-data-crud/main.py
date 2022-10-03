@@ -44,7 +44,7 @@ def auto_create_employees():
 
 
 def search_employee():
-    ask5 = input("Do you like to search base on name,age,ID,income or the whole company?\t").lower()
+    ask5 = input("Do you like to search base on name, age, date, ID, income or the whole company?\t").lower()
     if ask5 == "name":
         ask6 = input("Insert a name:\t")
         ask6_1 = ask6.title()
@@ -64,6 +64,11 @@ def search_employee():
         ask6 = input("Insert id:\t")
         ask6_1 = ask6.upper()
         for x in collection.find({"ID Number": ask6_1}):
+            print(x)
+       
+    elif ask5 == "date":
+        ask6 = input("Insert date:\t")
+        for x in collection.find({"Year Hired": ask6}):
             print(x)
 
     elif ask5 == "whole company":
