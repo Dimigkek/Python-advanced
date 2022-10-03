@@ -131,4 +131,7 @@ def main():
                 auto_create_employees()
 
 
-main()
+try:
+    main()
+except:
+    print("Please insert a number.")
