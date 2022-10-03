@@ -118,7 +118,7 @@ def main():
             delete_employee()
         elif option == 6:
             ask11 = input("Do you want to clear the data already exist?\t").lower()
-            if ask11 == "yes" or ask11 == "Yes":
+            if ask11 == "yes":
                 collection.delete_many({})
                 print("GoodBye!")
                 break
